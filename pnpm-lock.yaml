@@ -136,7 +136,7 @@ importers:
         version: 8.6.0(react@19.1.0)
       inngest:
         specifier: ^3.54.0
-        version: 3.54.0(@opentelemetry/core@2.7.1(@opentelemetry/api@1.9.0))(next@15.5.18(@opentelemetry/api@1.9.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(typescript@5.9.2)(zod@3.22.5)
+        version: 3.54.0(@opentelemetry/core@2.7.1(@opentelemetry/api@1.9.0))(next@15.5.18(@opentelemetry/api@1.9.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(typescript@5.9.2)(zod@3.22.4)
       input-otp:
         specifier: ^1.4.2
         version: 1.4.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -151,7 +151,7 @@ importers:
         version: 0.4.6(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       openai:
         specifier: ^5.19.1
-        version: 5.19.1(zod@3.22.5)
+        version: 5.19.1(zod@3.22.4)
       property-information:
         specifier: ^7.1.0
         version: 7.1.0
@@ -207,8 +207,8 @@ importers:
         specifier: ^1.1.2
         version: 1.1.2(@types/react-dom@19.1.9(@types/react@19.1.12))(@types/react@19.1.12)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       zod:
-        specifier: ^3.22.5
-        version: 3.22.5
+        specifier: ^3.22.4
+        version: 3.22.4
     devDependencies:
       '@eslint/eslintrc':
         specifier: ^3
@@ -4612,8 +4612,8 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  zod@3.22.5:
-    resolution: {integrity: sha512-HqnGsCdVZ2xc0qWPLdO25WnseXThh0kEYKIdV5F/hTHO75hNZFp8thxSeHhiPrHZKrFTo1SOgkAj9po5bexZlw==}
+  zod@3.22.4:
+    resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
 
   zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
@@ -7879,7 +7879,7 @@ snapshots:
 
   inline-style-parser@0.2.4: {}
 
-  inngest@3.54.0(@opentelemetry/core@2.7.1(@opentelemetry/api@1.9.0))(next@15.5.18(@opentelemetry/api@1.9.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(typescript@5.9.2)(zod@3.22.5):
+  inngest@3.54.0(@opentelemetry/core@2.7.1(@opentelemetry/api@1.9.0))(next@15.5.18(@opentelemetry/api@1.9.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(typescript@5.9.2)(zod@3.22.4):
     dependencies:
       '@bufbuild/protobuf': 2.7.0
       '@inngest/ai': 0.1.6
@@ -7906,7 +7906,7 @@ snapshots:
       strip-ansi: 5.2.0
       temporal-polyfill: 0.2.5
       ulid: 2.4.0
-      zod: 3.22.5
+      zod: 3.22.4
     optionalDependencies:
       next: 15.5.18(@opentelemetry/api@1.9.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       typescript: 5.9.2
@@ -8737,9 +8737,9 @@ snapshots:
 
   ohash@2.0.11: {}
 
-  openai@5.19.1(zod@3.22.5):
+  openai@5.19.1(zod@3.22.4):
     optionalDependencies:
-      zod: 3.22.5
+      zod: 3.22.4
 
   optionator@0.9.4:
     dependencies:
@@ -9750,6 +9750,6 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  zod@3.22.5: {}
+  zod@3.22.4: {}
 
   zwitch@2.0.4: {}
